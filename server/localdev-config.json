@@ -1,0 +1,4 @@
+{
+  "port": 3000,
+  "cloudant_url": "https://59e70767-7de3-44ec-a939-8a8edf1121fa-bluemix:0d343e61fd8945d60527202cfb8a2772674ec7b6152d6d2b13bf484ebaf87016@59e70767-7de3-44ec-a939-8a8edf1121fa-bluemix.cloudantnosqldb.appdomain.cloud"
+}

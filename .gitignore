@@ -1,0 +1,5 @@
+node_modules
+node_modules_linux
+.nyc_output
+server/localdev-config.jsonvcap-local.js
+credentials.json

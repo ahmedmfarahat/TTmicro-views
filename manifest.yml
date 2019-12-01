@@ -1,0 +1,12 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: TTmicro
+  buildpack: sdk-for-nodejs
+  command: npm start
+  memory: 128MB
+  domain: mybluemix.net
+  host: ttmicro12
+  services:
+    - guestbook-db-67208

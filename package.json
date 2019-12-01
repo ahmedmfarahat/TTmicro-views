@@ -1,0 +1,26 @@
+{
+  "name": "ibm-nodejs-cloudant-app",
+  "version": "1.0.0",
+  "description": "node.js + express + cloudant",
+  "config": {
+    "entrypoint": "server/server.js"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "nyc mocha --exit",
+    "devserver": "nodemon server/server.js"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.0",
+    "nodemon": "^1.19.1",
+    "nyc": "^14.1.1"
+  },
+  "dependencies": {
+    "@cloudant/cloudant": "^4.1.1",
+    "body-parser": "^1.19.0",
+    "cfenv": "^1.2.2",
+    "express": "^4.17.1",
+    "ibm-cloud-env": "^0"
+  }
+}
